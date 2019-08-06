@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+button[type="submit"]:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #dcc;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Chat Widget
+   ========================================================================== */
+
+.chat-widget {
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  border: 1px solid #ccc;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h2 {
+  font-size: 20px;
+}
+
+.end-chat {
+  background: transparent;
+  border: none;
+}
+
+.chat-messages {
+  padding: 15px;
+  flex-grow: 1;
+  list-style: none;
+}
+
+.chat-messages li {
+  margin-bottom: 10px;
+}
+
+.message-input {
+  margin-bottom: 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.notice {
+  display: none;
+}
+
+.dialog-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.dialog {
+  width: 500px;
+  background-color: white;
+  display: flex;
+  align-items:  center;
+}
+
+.dialog-form {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.dialog-form > * {
+  display: block;
+}
+
+.submit-btn {
+  color: #5C8436;
+  background-color: #181919;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  color: #5C8436;
+  background-color: #222;
+}
