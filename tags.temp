@@ -1,0 +1,139 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/1a94658c/
+*	frontend/src/App.css	/^*, *::before, *::after {$/;"	s
+*::after	frontend/src/App.css	/^*, *::before, *::after {$/;"	s
+*::before	frontend/src/App.css	/^*, *::before, *::after {$/;"	s
+.chat-header	frontend/src/App.css	/^.chat-header {$/;"	c
+.chat-header h2	frontend/src/App.css	/^.chat-header h2 {$/;"	s
+.chat-messages	frontend/src/App.css	/^.chat-messages {$/;"	c
+.chat-messages li	frontend/src/App.css	/^.chat-messages li {$/;"	s
+.chat-widget	frontend/src/App.css	/^.chat-widget {$/;"	c
+.dialog	frontend/src/App.css	/^.dialog {$/;"	c
+.dialog-container	frontend/src/App.css	/^.dialog-container {$/;"	c
+.dialog-form	frontend/src/App.css	/^.dialog-form {$/;"	c
+.dialog-form > *	frontend/src/App.css	/^.dialog-form > * {$/;"	s
+.end-chat	frontend/src/App.css	/^.end-chat {$/;"	c
+.login-form	frontend/src/App.css	/^.login-form {$/;"	c
+.login-form h2	frontend/src/App.css	/^.login-form h2 {$/;"	s
+.message-input	frontend/src/App.css	/^.message-input {$/;"	c
+.notice	frontend/src/App.css	/^.notice {$/;"	c
+.submit-btn	frontend/src/App.css	/^.submit-btn {$/;"	c
+.submit-btn:hover	frontend/src/App.css	/^.submit-btn:hover {$/;"	c
+0	frontend/package.json	/^      ">0.2%",$/;"	s	array:browserslist.production
+0	frontend/package.json	/^      "last 1 chrome version",$/;"	s	array:browserslist.development
+0	frontend/public/manifest.json	/^    {$/;"	o	array:icons
+1	frontend/package.json	/^      "last 1 firefox version",$/;"	s	array:browserslist.development
+1	frontend/package.json	/^      "not dead",$/;"	s	array:browserslist.production
+2	frontend/package.json	/^      "last 1 safari version"$/;"	s	array:browserslist.development
+2	frontend/package.json	/^      "not op_mini all"$/;"	s	array:browserslist.production
+@pusher/chatkit-client	frontend/package.json	/^    "@pusher\/chatkit-client": "^1.11.0",$/;"	s	object:dependencies
+Advanced Configuration	frontend/README.md	/^### Advanced Configuration$/;"	S
+Analyzing the Bundle Size	frontend/README.md	/^### Analyzing the Bundle Size$/;"	S
+App	frontend/src/App.js	/^class App extends React.Component {$/;"	c
+Available Scripts	frontend/README.md	/^## Available Scripts$/;"	s
+Built With	README.md	/^## Built With$/;"	s
+Chat Transcripts with Chatkit and Sendgrid	README.md	/^# Chat Transcripts with Chatkit and Sendgrid$/;"	c
+Chatkit	server.js	/^const Chatkit = require('@pusher\/chatkit-server');$/;"	C
+Code Splitting	frontend/README.md	/^### Code Splitting$/;"	S
+Deployment	frontend/README.md	/^### Deployment$/;"	S
+Getting Started	README.md	/^## Getting Started$/;"	s
+Learn More	frontend/README.md	/^## Learn More$/;"	s
+Licence	README.md	/^## Licence$/;"	s
+Making a Progressive Web App	frontend/README.md	/^### Making a Progressive Web App$/;"	S
+Pre-requisites	README.md	/^## Pre-requisites$/;"	s
+`npm run build`	frontend/README.md	/^### `npm run build`$/;"	S
+`npm run build` fails to minify	frontend/README.md	/^### `npm run build` fails to minify$/;"	S
+`npm run eject`	frontend/README.md	/^### `npm run eject`$/;"	S
+`npm start`	frontend/README.md	/^### `npm start`$/;"	S
+`npm test`	frontend/README.md	/^### `npm test`$/;"	S
+addSupportStaffToRoom	frontend/src/methods.js	/^function addSupportStaffToRoom() {$/;"	f
+author	package.json	/^  "author": "",$/;"	s
+axios	frontend/package.json	/^    "axios": "^0.19.0",$/;"	s	object:dependencies
+background_color	frontend/public/manifest.json	/^  "background_color": "#ffffff"$/;"	s
+body	frontend/src/index.css	/^body {$/;"	s
+body-parser	package.json	/^    "body-parser": "^1.19.0",$/;"	s	object:dependencies
+bodyParser	server.js	/^const bodyParser = require('body-parser');$/;"	C
+browserslist	frontend/package.json	/^  "browserslist": {$/;"	o
+build	frontend/package.json	/^    "build": "react-scripts build",$/;"	s	object:scripts
+button[type="submit"]	frontend/src/App.css	/^button[type="submit"] {$/;"	s
+button[type="submit"] :hover	frontend/src/App.css	/^button[type="submit"]:hover {$/;"	s
+checkValidServiceWorker	frontend/src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
+code	frontend/src/index.css	/^code {$/;"	s
+connectToRoom	frontend/src/methods.js	/^function connectToRoom(id) {$/;"	f
+constructTranscript	server.js	/^function constructTranscript(messages) {$/;"	f
+constructor	frontend/src/App.js	/^  constructor() {$/;"	m	class:App
+cors	package.json	/^    "cors": "^2.8.5",$/;"	s	object:dependencies
+cors	server.js	/^const cors = require('cors');$/;"	C
+createRoom	frontend/src/methods.js	/^function createRoom() {$/;"	f
+currentRoom	frontend/src/App.js	/^      currentRoom: null,$/;"	p	class:App.constructor.state
+currentUser	frontend/src/App.js	/^      currentUser: null,$/;"	p	class:App.constructor.state
+date-fns	package.json	/^    "date-fns": "^1.30.1",$/;"	s	object:dependencies
+dateFns	server.js	/^const dateFns = require('date-fns');$/;"	C
+dependencies	frontend/package.json	/^  "dependencies": {$/;"	o
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "",$/;"	s
+devDependencies	package.json	/^  "devDependencies": {},$/;"	o
+development	frontend/package.json	/^    "development": [$/;"	a	object:browserslist
+display	frontend/public/manifest.json	/^  "display": "standalone",$/;"	s
+dotenv	package.json	/^    "dotenv": "^8.0.0",$/;"	s	object:dependencies
+eject	frontend/package.json	/^    "eject": "react-scripts eject"$/;"	s	object:scripts
+endChat	frontend/src/methods.js	/^function endChat(event) {$/;"	c
+eslintConfig	frontend/package.json	/^  "eslintConfig": {$/;"	o
+express	package.json	/^    "express": "^4.17.1"$/;"	s	object:dependencies
+express	server.js	/^const express = require('express');$/;"	C
+extends	frontend/package.json	/^    "extends": "react-app"$/;"	s	object:eslintConfig
+handleInput	frontend/src/methods.js	/^function handleInput(event) {$/;"	c
+html	frontend/src/App.css	/^html {$/;"	s
+icons	frontend/public/manifest.json	/^  "icons": [$/;"	a
+input	frontend/src/App.css	/^input {$/;"	s
+isLocalhost	frontend/src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	C
+joinChat	frontend/src/methods.js	/^function joinChat(event) {$/;"	f
+keywords	package.json	/^  "keywords": [],$/;"	a
+label	frontend/src/App.css	/^label {$/;"	s
+license	package.json	/^  "license": "ISC"$/;"	s
+main	package.json	/^  "main": "server.js",$/;"	s
+messages	frontend/src/App.js	/^      messages: [],$/;"	p	class:App.constructor.state
+name	frontend/package.json	/^  "name": "frontend",$/;"	s
+name	frontend/public/manifest.json	/^  "name": "Create React App Sample",$/;"	s
+name	package.json	/^  "name": "chat-transcript",$/;"	s
+newMessage	frontend/src/App.js	/^      newMessage: "",$/;"	p	class:App.constructor.state
+private	frontend/package.json	/^  "private": true,$/;"	b
+production	frontend/package.json	/^    "production": [$/;"	a	object:browserslist
+random-words	frontend/package.json	/^    "random-words": "^1.1.0",$/;"	s	object:dependencies
+react	frontend/package.json	/^    "react": "^16.8.6",$/;"	s	object:dependencies
+react-dom	frontend/package.json	/^    "react-dom": "^16.8.6",$/;"	s	object:dependencies
+react-feather	frontend/package.json	/^    "react-feather": "^2.0.3",$/;"	s	object:dependencies
+react-scripts	frontend/package.json	/^    "react-scripts": "3.0.1",$/;"	s	object:dependencies
+react-toastify	frontend/package.json	/^    "react-toastify": "^5.3.2"$/;"	s	object:dependencies
+register	frontend/src/serviceWorker.js	/^export function register(config) {$/;"	f
+registerValidSW	frontend/src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
+render	frontend/src/App.js	/^  render() {$/;"	m	class:App
+root	frontend/public/index.html	/^    <div id="root"><\/div>$/;"	I
+scripts	frontend/package.json	/^  "scripts": {$/;"	o
+scripts	package.json	/^  "scripts": {$/;"	o
+sendMessage	frontend/src/methods.js	/^function sendMessage(event) {$/;"	c
+sendTranscript	frontend/src/methods.js	/^function sendTranscript(event) {$/;"	f
+server	server.js	/^const server = app.listen(app.get('port'), () => {$/;"	C
+sgMail	server.js	/^const sgMail = require('@sendgrid\/mail')$/;"	C
+short_name	frontend/public/manifest.json	/^  "short_name": "React App",$/;"	s
+showTranscriptDialog	frontend/src/App.js	/^      showTranscriptDialog: false,$/;"	p	class:App.constructor.state
+sizes	frontend/public/manifest.json	/^      "sizes": "64x64 32x32 24x24 16x16",$/;"	s	object:icons.0
+src	frontend/public/manifest.json	/^      "src": "favicon.ico",$/;"	s	object:icons.0
+start	frontend/package.json	/^    "start": "react-scripts start",$/;"	s	object:scripts
+start	package.json	/^    "start": "node server.js"$/;"	s	object:scripts
+start_url	frontend/public/manifest.json	/^  "start_url": ".",$/;"	s
+state	frontend/src/App.js	/^    this.state = {$/;"	c	class:App.constructor
+test	frontend/package.json	/^    "test": "react-scripts test",$/;"	s	object:scripts
+test	package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1",$/;"	s	object:scripts
+theme_color	frontend/public/manifest.json	/^  "theme_color": "#000000",$/;"	s
+transcriptEmail	frontend/src/App.js	/^      transcriptEmail: "",$/;"	p	class:App.constructor.state
+type	frontend/public/manifest.json	/^      "type": "image\/x-icon"$/;"	s	object:icons.0
+unregister	frontend/src/serviceWorker.js	/^export function unregister() {$/;"	f
+username	frontend/src/App.js	/^      username: "",$/;"	p	class:App.constructor.state
+version	frontend/package.json	/^  "version": "0.1.0",$/;"	s
+version	package.json	/^  "version": "1.0.0",$/;"	s

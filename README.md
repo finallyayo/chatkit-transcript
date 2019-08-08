@@ -1,6 +1,6 @@
 # Chat Transcripts with Chatkit and Sendgrid
 
-Send chat transcripts to an email address. Tutorial:
+Send chat transcripts to an email address. Tutorial: https://pusher.com/tutorials/chat-transcript-react-sendgrid
 
 ## Getting Started
 
